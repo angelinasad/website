@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans+Condensed:wght@300&display=swap');
+.content{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    padding: 20px;
+}
+.content h1{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.content p{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.img{
+    width: 539px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.header{
+    width: 100%;
+}
+.wraper{
+    
+}
+.logo{
+    width: 200px;
+    height: 155px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo img{
+    width: 200px;
+    height: 155px;
+}
+.menu{
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    max-width: 1080px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.menu ul li{
+    display: inline;
+    margin-left: 20px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: orangered;
+}
+.menu ul li a:active{
+    
+}
+.imgprod img{
+    width: 350px;
+    height: 250px;
+}
+.imgprod{
+    width: 350px;
+    height: 250px;
+    float: left;
+}
+.prod{
+    height: 280px;
+    width: 97%;
+    margin-left: 20px;
+    border-bottom: 2px solid #b5b5b5;
+}
+.infoprod{
+    margin-left: 365px;
+}
+.infoprod h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    color: orangered;
+}
+.desc{
+    display: block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.price{
+    color: orangered;
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.button{
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+    float: right;
+    
+}
+.button:hover{
+    transition: 0.5s;
+    background-color: white;
+    color:black;
+}
+.button:active{
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.contact{
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+.imgcont{
+    height: 128px;
+    width: 128px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.knopka{
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.pole{
+    width: 300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+}
+
+.forma{
+    background-color: #d1d1d1;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-top: 30px;
+}
+.soob{
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+}
+.knopka input{
+    width:315px;
+    height:40px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    font-size: 20px;
+    color: orangered;
+}
+.pole input{
+    width:300px;
+    height:40px;
+    border-radius: 6px;
+    border: 2px solid orangered;
+    padding-left: 10px;
+}
+.soob textarea{
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.conorange{
+    color: orangered;
+}
+.write{
+    color: black;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+.knopka input:hover{
+    color: white;
+    background-color: orangered;
+    transition: 0.4s;
+}
+
+.prodset ul{
+    padding: 0;
+    list-style-position: inside;
+}
+
+.prodset ul li{
+    color: #323332;
+    font-family: sans-serif;
+    font-size: 25px;
+    list-style-type: none;
+}
+.sethead{
+    font-size: 30px;
+    font-family: cursive;
+    color: orangered;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.produp{
+    
+}
+.produpimg{
+    width: 500px;
+    height: 370px;
+}
+.produpimg img{
+    width: 450px;
+    height: 350px;
+}
+.prodbox{
+    max-width: 1200px;
+}
+.proddown{
+    margin-top: 20px;
+}
+.proddown p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.prodset h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-align: left;
+}
+.prodset{
+    float: right;
+    margin-right: 25px;
+}
+.prodset a{
+    font-family: 'Amatic SC', cursive;
+    color: orangered;
+    background-color: white;
+    font-size: 40px;
+    text-decoration: none;
+    border: 3px solid orangered;
+    border-radius: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.prodset a:hover{
+    transition: 0.6s;
+    background-color: orangered;
+    color: white;
+}
+.check_box{
+    width: 100%;
+    height: 550px;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.check_right{
+    min-height: 500px;
+    width: 496px;
+    float: right;
+}
+.check_left{
+    min-height: 500px;
+    width: 496px;
+    float: left;
+}
+.check_send{
+    height: 70px;
+}
+.formazakaz{
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    width: 370px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.polezakaz{
+    width: 300px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+.polezakaz input{
+    width: 300px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    padding-left: 20px;
+}
+.check_left h2{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+.check_right h2{
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center
+}
+.check_send a{
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+.check_send a:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.5s;
+}
+.content h2{
+    font-family: 'Amatic SC', cursive;
+}
+.proname{
+    font-family: 'Amatic SC', cursive;
+}
+.content proname{
+    font-family: 'Amatic SC', cursive;
+}
